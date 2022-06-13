@@ -128,6 +128,12 @@ pip install -U pyabsa
 git clone https://github.com/yangheng95/PyABSA --depth=1
 cd PyABSA 
 python setup.py install
+
+My case:
+!git clone https://github.com/leticiarubalcabadg/PyABSA --depth=1
+%cd PyABSA 
+!python setup.py build
+!python setup.py install
 ```
 
 ## Examples
