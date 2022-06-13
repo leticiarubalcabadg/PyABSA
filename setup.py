@@ -11,7 +11,7 @@ from pyabsa import __name__, __version__
 from pathlib import Path
 
 cwd = Path(__file__).parent
-long_description = (cwd / PyABSA/"README.md").read_text(encoding='utf8')
+long_description = (cwd / "PyABSA"/"README.md").read_text(encoding='utf8')
 
 setup(
     name=__name__,
